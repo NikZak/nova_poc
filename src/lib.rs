@@ -1,5 +1,3 @@
-//! This example proves the knowledge of preimage to a hash chain tail, with a configurable number of elements per hash chain node.
-//! The output of each step tracks the current tail of the hash chain
 use bellpepper_core::{num::AllocatedNum, ConstraintSystem, SynthesisError};
 use generic_array::typenum::U2;
 use neptune::{circuit2::poseidon_hash_allocated, poseidon::PoseidonConstants, Strength};
